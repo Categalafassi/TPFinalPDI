@@ -1,0 +1,741 @@
+
+Wed Nov  8 16:18:50 -03 2023
+cd /Applications/freesurfer/7.4.1/subjects/109_S_1192
+setenv SUBJECTS_DIR /Applications/freesurfer/7.4.1/subjects
+/Applications/freesurfer/7.4.1/bin/recon-all -i ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm -autorecon1 -s 109_S_1192
+
+subjid 109_S_1192
+setenv SUBJECTS_DIR /Applications/freesurfer/7.4.1/subjects
+FREESURFER_HOME /Applications/freesurfer/7.4.1
+Actual FREESURFER_HOME /Applications/freesurfer/7.4.1
+build-stamp.txt: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+cputime      unlimited
+filesize     unlimited
+datasize     unlimited
+stacksize    8176 kbytes
+coredumpsize 0 kbytes
+memoryuse    unlimited
+descriptors  256 
+memorylocked unlimited
+maxproc      1333 
+
+PhysMem: 7556M used (1341M wired, 1308M compressor), 74M unused.
+
+########################################
+program versions used
+7.4.1 (freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460)
+7.4.1
+
+ProgramName: lta_convert  ProgramArguments: lta_convert -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:50-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_and  ProgramArguments: mri_and -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:50-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_annotation2label  ProgramArguments: mri_annotation2label -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:50-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_aparc2aseg  ProgramArguments: mri_aparc2aseg -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:50-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_surf2volseg  ProgramArguments: mri_surf2volseg -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_binarize  ProgramArguments: mri_binarize -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_ca_label  ProgramArguments: mri_ca_label -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_ca_normalize  ProgramArguments: mri_ca_normalize -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_ca_register  ProgramArguments: mri_ca_register -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_cc  ProgramArguments: mri_cc -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_compute_overlap  ProgramArguments: mri_compute_overlap -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_compute_seg_overlap  ProgramArguments: mri_compute_seg_overlap -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_concat  ProgramArguments: mri_concat -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_concatenate_lta  ProgramArguments: mri_concatenate_lta -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+mri_convert -all-info 
+ProgramName: mri_convert  ProgramArguments: mri_convert -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_diff  ProgramArguments: mri_diff -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_edit_wm_with_aseg  ProgramArguments: mri_edit_wm_with_aseg -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_em_register  ProgramArguments: mri_em_register -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_fill  ProgramArguments: mri_fill -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_fuse_segmentations  ProgramArguments: mri_fuse_segmentations -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:51-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_fwhm  ProgramArguments: mri_fwhm -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_gcut  ProgramArguments: mri_gcut -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_info  ProgramArguments: mri_info -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_label2label  ProgramArguments: mri_label2label -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_label2vol  ProgramArguments: mri_label2vol -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_log_likelihood  ProgramArguments: mri_log_likelihood -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_mask  ProgramArguments: mri_mask -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_matrix_multiply  ProgramArguments: mri_matrix_multiply -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_normalize  ProgramArguments: mri_normalize -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_normalize_tp2  ProgramArguments: mri_normalize_tp2 -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_or  ProgramArguments: mri_or -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_relabel_hypointensities  ProgramArguments: mri_relabel_hypointensities -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_relabel_nonwm_hypos  ProgramArguments: mri_relabel_nonwm_hypos -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_remove_neck  ProgramArguments: mri_remove_neck -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+7.4.1
+
+ProgramName: mri_robust_register  ProgramArguments: mri_robust_register -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:52-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+7.4.1
+
+ProgramName: mri_robust_template  ProgramArguments: mri_robust_template -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_anatomical_stats  ProgramArguments: mris_anatomical_stats -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_ca_label  ProgramArguments: mris_ca_label -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_calc  ProgramArguments: mris_calc -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_convert  ProgramArguments: mris_convert -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_curvature  ProgramArguments: mris_curvature -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_curvature_stats  ProgramArguments: mris_curvature_stats -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_diff  ProgramArguments: mris_diff -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_divide_parcellation  ProgramArguments: mris_divide_parcellation -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_segment  ProgramArguments: mri_segment -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_segstats  ProgramArguments: mri_segstats -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_euler_number  ProgramArguments: mris_euler_number -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_fix_topology  ProgramArguments: mris_fix_topology -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_topo_fixer  ProgramArguments: mris_topo_fixer -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_jacobian  ProgramArguments: mris_jacobian -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:53-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_label2annot  ProgramArguments: mris_label2annot -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_left_right_register  ProgramArguments: mris_left_right_register -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_place_surface  ProgramArguments: mris_place_surface -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mrisp_paint  ProgramArguments: mrisp_paint -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_register  ProgramArguments: mris_register -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_smooth  ProgramArguments: mris_smooth -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_sphere  ProgramArguments: mris_sphere -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_surface_stats  ProgramArguments: mris_surface_stats -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_stats2seg  ProgramArguments: mri_stats2seg -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_thickness  ProgramArguments: mris_thickness -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_thickness_diff  ProgramArguments: mris_thickness_diff -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_topo_fixer  ProgramArguments: mris_topo_fixer -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_surf2surf  ProgramArguments: mri_surf2surf -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_surf2vol  ProgramArguments: mri_surf2vol -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_surfcluster  ProgramArguments: mri_surfcluster -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mris_volmask  ProgramArguments: mris_volmask -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_tessellate  ProgramArguments: mri_tessellate -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_vol2surf  ProgramArguments: mri_vol2surf -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_vol2vol  ProgramArguments: mri_vol2vol -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_voldiff  ProgramArguments: mri_voldiff -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:54-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: mri_watershed  ProgramArguments: mri_watershed -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:55-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+ProgramName: tkregister2  ProgramArguments: tkregister2_cmdl -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:55-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+mri_motion_correct.fsl 7.4.1
+mri_convert -all-info 
+ProgramName: mri_convert  ProgramArguments: mri_convert -all-info  ProgramVersion: 7.4.1  TimeStamp: 2023/11/08-19:18:55-GMT  BuildTime: Jun 14 2023 00:15:19  BuildStamp: freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460  User: cundo  Machine: Facundos-MacBook-Air.local  Platform: Darwin  PlatformVersion: 23.0.0  CompilerName: Clang  CompilerVersion: 12.0.0
+Program nu_correct, built from:
+Package MNI N3, version 1.12.0, compiled by nicks@gust.nmr.mgh.harvard.edu (x86_64-apple-darwin11.4.2) on 2015-06-19 at 15:37:08
+#######################################
+GCADIR /Applications/freesurfer/7.4.1/average
+GCA RB_all_2020-01-02.gca
+GCASkull RB_all_withskull_2020_01_02.gca
+AvgCurvTif folding.atlas.acfb40.noaparc.i12.2016-08-02.tif
+GCSDIR /Applications/freesurfer/7.4.1/average
+GCS DKaparc.atlas.acfb40.noaparc.i12.2016-08-02.gcs
+#######################################
+/Applications/freesurfer/7.4.1/subjects/109_S_1192
+\n mri_convert /Users/cundo/Downloads/ADNI/109_S_1192/ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig/001.mgz \n
+mri_convert /Users/cundo/Downloads/ADNI/109_S_1192/ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig/001.mgz 
+reading from /Users/cundo/Downloads/ADNI/109_S_1192/ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm...
+mriio.cpp: starting DICOMRead3()
+Starting DICOMRead3()
+dcmfile = /Users/cundo/Downloads/ADNI/109_S_1192/ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm
+dcmdir = /Users/cundo/Downloads/ADNI/109_S_1192
+Found 160 DICOM file(s)
+load Image /Users/cundo/Downloads/ADNI/109_S_1192/ADNI_109_S_1192_MR_MPRAGE_br_raw_20070116134734254_1_S25055_I36230.dcm, size 73728
+***USING_DCM2NIIXFSWRAPPER***: skip nii_flipZ() when sliceDir < 0 (/Users/developer/space_freesurfer/build/tulum/trunk/developer-7.4.1/packages/dcm2niix/nii_dicom_batch.cpp:saveDcm2NiiCore:6506)
+Convert 160 DICOM (192x192x160x1)
+DICOM row order preserved: may appear upside down in tools that ignore spatial transforms
+TR=3000.00, TE=3.71, TI=1000.00, flip angle=8.00
+i_ras = (-0, -1, 5.55112e-17)
+j_ras = (0.0209424, -0, -0.999781)
+k_ras = (-0.999781, -1.16254e-18, -0.0209424)
+writing to /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig/001.mgz...
+#--------------------------------------------
+#@# MotionCor Wed Nov  8 16:18:56 -03 2023
+Found 1 runs
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig/001.mgz
+Checking for (invalid) multi-frame inputs...
+Only one run found so motion
+correction will not be performed. I'll
+copy the run to rawavg and continue.
+\n cp /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig/001.mgz /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz \n
+\n mri_info /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz \n
+rawavg.mgz ========================================
+Volume information for /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz
+          type: MGH
+    dimensions: 192 x 192 x 160
+   voxel sizes: 1.250000, 1.250000, 1.200000
+          type: SHORT (4)
+           fov: 240.000
+           dof: 1
+        xstart: -120.0, xend: 120.0
+        ystart: -120.0, yend: 120.0
+        zstart: -96.0, zend: 96.0
+            TR: 3000.00 msec, TE: 3.71 msec, TI: 1000.00 msec, flip angle: 8.00 degrees
+       nframes: 1
+       PhEncDir: ROW
+       FieldStrength: 1.500000
+ras xform present
+    xform info: x_r =  -0.0000, y_r =   0.0209, z_r =  -0.9998, c_r =    -3.9897
+              : x_a =  -1.0000, y_a =  -0.0000, z_a =  -0.0000, c_a =    13.5593
+              : x_s =   0.0000, y_s =  -0.9998, z_s =  -0.0209, c_s =    -0.0126
+
+talairach xfm : 
+Orientation   : PIL
+Primary Slice Direction: sagittal
+
+voxel to ras transform:
+               -0.0000   0.0262  -1.1997    89.4762
+               -1.2500  -0.0000  -0.0000   133.5593
+                0.0000  -1.2497  -0.0251   121.9716
+                0.0000   0.0000   0.0000     1.0000
+
+voxel-to-ras determinant -1.875
+
+ras to voxel transform:
+                0.0000  -0.8000   0.0000   106.8475
+                0.0168  -0.0000  -0.7998    96.0568
+               -0.8332  -0.0000  -0.0175    76.6758
+               -0.0000  -0.0000  -0.0000     1.0000
+/Applications/freesurfer/7.4.1/subjects/109_S_1192
+\n mri_convert /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz --conform \n
+mri_convert /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz --conform 
+reading from /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/rawavg.mgz...
+TR=3000.00, TE=3.71, TI=1000.00, flip angle=8.00
+i_ras = (-0, -1, 5.55112e-17)
+j_ras = (0.0209424, -0, -0.999781)
+k_ras = (-0.999781, -1.16254e-18, -0.0209424)
+changing data type from short to uchar (noscale = 0)...
+MRIchangeType: Building histogram 0 956 1000, flo=0, fhi=0.999, dest_type=0
+Reslicing using trilinear interpolation 
+writing to /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz...
+\n mri_add_xform_to_header -c /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talairach.xfm /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz \n
+INFO: extension is mgz
+\n mri_info /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz \n
+orig.mgz ========================================
+Volume information for /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/orig.mgz
+          type: MGH
+    dimensions: 256 x 256 x 256
+   voxel sizes: 1.000000, 1.000000, 1.000000
+          type: UCHAR (0)
+           fov: 256.000
+           dof: 1
+        xstart: -128.0, xend: 128.0
+        ystart: -128.0, yend: 128.0
+        zstart: -128.0, zend: 128.0
+            TR: 3000.00 msec, TE: 3.71 msec, TI: 1000.00 msec, flip angle: 8.00 degrees
+       nframes: 1
+       PhEncDir: UNKNOWN
+       FieldStrength: 0.000000
+ras xform present
+    xform info: x_r =  -1.0000, y_r =  -0.0000, z_r =   0.0000, c_r =    -3.9897
+              : x_a =   0.0000, y_a =   0.0000, z_a =   1.0000, c_a =    13.5593
+              : x_s =   0.0000, y_s =  -1.0000, z_s =  -0.0000, c_s =    -0.0126
+
+talairach xfm : /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talairach.xfm
+Orientation   : LIA
+Primary Slice Direction: coronal
+
+voxel to ras transform:
+               -1.0000  -0.0000   0.0000   124.0103
+                0.0000   0.0000   1.0000  -114.4407
+                0.0000  -1.0000  -0.0000   127.9874
+                0.0000   0.0000   0.0000     1.0000
+
+voxel-to-ras determinant -1
+
+ras to voxel transform:
+               -1.0000   0.0000   0.0000   124.0103
+               -0.0000  -0.0000  -1.0000   127.9874
+                0.0000   1.0000  -0.0000   114.4407
+               -0.0000  -0.0000  -0.0000     1.0000
+#--------------------------------------------
+#@# Talairach Wed Nov  8 16:19:00 -03 2023
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+\n mri_nu_correct.mni --no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50 \n
+/usr/bin/bc
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+/Applications/freesurfer/7.4.1/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+FreeSurferEnv.csh 7.4.1
+Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+Wed Nov  8 16:19:00 -03 2023
+tmpdir is ./tmp.mri_nu_correct.mni.70665
+cd /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.70665/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_convert ./tmp.mri_nu_correct.mni.70665/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.70665/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.70665/nu0.mgz...
+TR=3000.00, TE=3.71, TI=1000.00, flip angle=8.00
+i_ras = (-1, 1.03398e-25, 3.72529e-09)
+j_ras = (-1.86265e-09, 0, -1)
+k_ras = (1.03398e-25, 1, -9.11676e-24)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+Wed Nov  8 16:20:50 -03 2023
+mri_nu_correct.mni done
+\n talairach_avi --i orig_nu.mgz --xfm transforms/talairach.auto.xfm \n
+talairach_avi log file is transforms/talairach_avi.log...
+mv -f /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/talsrcimg_to_711-2C_as_mni_average_305_t4_vox2vox.txt /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talsrcimg_to_711-2C_as_mni_average_305_t4_vox2vox.txt
+Started at Wed Nov 8 16:20:50 -03 2023
+Ended   at Wed Nov  8 16:21:08 -03 2023
+talairach_avi done
+\n cp transforms/talairach.auto.xfm transforms/talairach.xfm \n
+lta_convert --src orig.mgz --trg /Applications/freesurfer/7.4.1/average/mni305.cor.mgz --inxfm transforms/talairach.xfm --outlta transforms/talairach.xfm.lta --subject fsaverage --ltavox2vox
+7.4.1
+
+--src: orig.mgz src image (geometry).
+--trg: /Applications/freesurfer/7.4.1/average/mni305.cor.mgz trg image (geometry).
+--inmni: transforms/talairach.xfm input MNI/XFM transform.
+--outlta: transforms/talairach.xfm.lta output LTA.
+--s: fsaverage subject name
+--ltavox2vox: output LTA as VOX_TO_VOX transform.
+ LTA read, type : 1
+ 1.04343  -0.03555   0.03921   3.51378;
+ 0.01020   1.01534   0.31231  -11.57872;
+-0.05908  -0.34142   1.23176  -4.72916;
+ 0.00000   0.00000   0.00000   1.00000;
+setting subject to fsaverage
+Writing  LTA to file transforms/talairach.xfm.lta...
+lta_convert successful.
+#--------------------------------------------
+#@# Talairach Failure Detection Wed Nov  8 16:21:10 -03 2023
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+\n talairach_afd -T 0.005 -xfm transforms/talairach.xfm \n
+talairach_afd: Talairach Transform: transforms/talairach.xfm OK (p=0.7225, pval=0.4932 >= threshold=0.0050)
+\n awk -f /Applications/freesurfer/7.4.1/bin/extract_talairach_avi_QA.awk /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talairach_avi.log \n
+\n tal_QC_AZS /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talairach_avi.log \n
+TalAviQA: 0.97622
+z-score: 0
+#--------------------------------------------
+#@# Nu Intensity Correction Wed Nov  8 16:21:11 -03 2023
+\n mri_nu_correct.mni --i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4 \n
+/usr/bin/bc
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+/Applications/freesurfer/7.4.1/bin/mri_nu_correct.mni
+--i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4
+nIters 2
+FreeSurferEnv.csh 7.4.1
+Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+Wed Nov  8 16:21:11 -03 2023
+tmpdir is ./tmp.mri_nu_correct.mni.70942
+cd /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.70942/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_binarize --i ./tmp.mri_nu_correct.mni.70942/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.70942/ones.mgz
+
+7.4.1
+cwd /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+cmdline mri_binarize --i ./tmp.mri_nu_correct.mni.70942/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.70942/ones.mgz 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+
+input      ./tmp.mri_nu_correct.mni.70942/nu0.mgz
+frame      0
+nErode3d   0
+nErode2d   0
+output     ./tmp.mri_nu_correct.mni.70942/ones.mgz
+Binarizing based on threshold
+min        -1
+max        +infinity
+binval        1
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Found 16777216 values in range
+Counting number of voxels in first frame
+Found 16777215 voxels in final mask
+Writing output to ./tmp.mri_nu_correct.mni.70942/ones.mgz
+Count: 16777215 16777215.000000 16777216 99.999994
+mri_binarize done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.70942/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.70942/sum.junk --avgwf ./tmp.mri_nu_correct.mni.70942/input.mean.dat
+
+7.4.1
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.70942/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.70942/sum.junk --avgwf ./tmp.mri_nu_correct.mni.70942/input.mean.dat 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.70942/ones.mgz
+Loading orig.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.70942/input.mean.dat
+mri_segstats done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.70942/ones.mgz --i ./tmp.mri_nu_correct.mni.70942/nu0.mgz --sum ./tmp.mri_nu_correct.mni.70942/sum.junk --avgwf ./tmp.mri_nu_correct.mni.70942/output.mean.dat
+
+7.4.1
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.70942/ones.mgz --i ./tmp.mri_nu_correct.mni.70942/nu0.mgz --sum ./tmp.mri_nu_correct.mni.70942/sum.junk --avgwf ./tmp.mri_nu_correct.mni.70942/output.mean.dat 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.70942/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.70942/nu0.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.70942/output.mean.dat
+mri_segstats done
+mris_calc -o ./tmp.mri_nu_correct.mni.70942/nu0.mgz ./tmp.mri_nu_correct.mni.70942/nu0.mgz mul 1.78455361692145169942
+Saving result to './tmp.mri_nu_correct.mni.70942/nu0.mgz' (type = MGH )                       [ ok ]
+mri_convert ./tmp.mri_nu_correct.mni.70942/nu0.mgz nu.mgz --like orig.mgz
+mri_convert ./tmp.mri_nu_correct.mni.70942/nu0.mgz nu.mgz --like orig.mgz 
+reading from ./tmp.mri_nu_correct.mni.70942/nu0.mgz...
+TR=3000.00, TE=3.71, TI=1000.00, flip angle=8.00
+i_ras = (-1, 1.03398e-25, 3.72529e-09)
+j_ras = (-1.86265e-09, 0, -1)
+k_ras = (1.03398e-25, 1, -9.11676e-24)
+INFO: transform src into the like-volume: orig.mgz
+writing to nu.mgz...
+mri_make_uchar nu.mgz transforms/talairach.xfm nu.mgz
+type change took 0 minutes and 6 seconds.
+FIRST_PERCENTILE 0.010000
+WM_PERCENTILE    0.900000
+MAX_R 50.000000
+i1 = 4, i2 = 63
+#mri_make_uchar# mapping 10 162 to  3 110  :  b -4.73475 m 0.707049 : thresh 6.69649 maxsat 367.35 : nzero 10316187 nsat 0
+ 
+ 
+Wed Nov  8 16:23:19 -03 2023
+mri_nu_correct.mni done
+\n mri_add_xform_to_header -c /Applications/freesurfer/7.4.1/subjects/109_S_1192/mri/transforms/talairach.xfm nu.mgz nu.mgz \n
+INFO: extension is mgz
+#--------------------------------------------
+#@# Intensity Normalization Wed Nov  8 16:23:19 -03 2023
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+\n mri_normalize -g 1 -seed 1234 -mprage nu.mgz T1.mgz \n
+using max gradient = 1.000
+setting seed for random number genererator to 1234
+assuming input volume is MGH (Van der Kouwe) MP-RAGE
+reading mri_src from nu.mgz...
+normalizing image...
+NOT doing gentle normalization with control points/label
+talairach transform
+ 1.04343  -0.03555   0.03921   3.51378;
+ 0.01020   1.01534   0.31231  -11.57872;
+-0.05908  -0.34142   1.23176  -4.72916;
+ 0.00000   0.00000   0.00000   1.00000;
+processing without aseg, no1d=0
+MRInormInit(): 
+INFO: Modifying talairach volume c_(r,a,s) based on average_305
+MRInormalize(): 
+MRIsplineNormalize(): npeaks = 16
+Starting OpenSpline(): npoints = 16
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+
+Iterating 2 times
+---------------------------------
+3d normalization pass 1 of 2
+white matter peak found at 110
+white matter peak found at 110
+gm peak at 60 (60), valley at 48 (48)
+csf peak at 30, setting threshold to 50
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+---------------------------------
+3d normalization pass 2 of 2
+white matter peak found at 110
+white matter peak found at 110
+gm peak at 41 (41), valley at 17 (17)
+csf peak at 21, setting threshold to 34
+building Voronoi diagram...
+performing soap bubble smoothing, sigma = 8...
+Done iterating ---------------------------------
+writing output to T1.mgz
+3D bias adjustment took 1 minutes and 48 seconds.
+#--------------------------------------------
+#@# Skull Stripping Wed Nov  8 16:25:08 -03 2023
+/Applications/freesurfer/7.4.1/subjects/109_S_1192/mri
+\n mri_em_register -skull nu.mgz /Applications/freesurfer/7.4.1/average/RB_all_withskull_2020_01_02.gca transforms/talairach_with_skull.lta \n
+aligning to atlas containing skull, setting unknown_nbr_spacing = 5
+reading 1 input volumes...
+logging results to talairach_with_skull.log
+reading '/Applications/freesurfer/7.4.1/average/RB_all_withskull_2020_01_02.gca'...
+GCAread took 0 minutes and 2 seconds.
+average std = 23.0   using min determinant for regularization = 52.8
+0 singular and 9205 ill-conditioned covariance matrices regularized
+reading 'nu.mgz'...
+freeing gibbs priors...done.
+accounting for voxel sizes in initial transform
+bounding unknown intensity as < 8.9 or > 556.0 
+total sample mean = 77.3 (1403 zeros)
+************************************************
+spacing=8, using 3292 sample points, tol=1.00e-05...
+************************************************
+register_mri: find_optimal_transform
+find_optimal_transform: nsamples 3292, passno 0, spacing 8
+resetting wm mean[0]: 100 --> 108
+resetting gm mean[0]: 61 --> 61
+input volume #1 is the most T1-like
+using real data threshold=6.0
+skull bounding box = (50, 44, 15) --> (207, 255, 229)
+finding center of left hemi white matter
+using (102, 114, 122) as brain centroid of Right_Cerebral_White_Matter...
+MRImask(): AllowDiffGeom = 1
+mean wm in atlas = 108, using box (83,88,96) --> (121, 140,148) to find MRI wm
+before smoothing, mri peak at 106
+robust fit to distribution - 107 +- 6.0
+after smoothing, mri peak at 106, scaling input intensities by 1.019
+scaling channel 0 by 1.01887
+initial log_p = -4.378
+************************************************
+First Search limited to translation only.
+************************************************
+max log p =    -4.394862 @ (0.000, 0.000, 0.000)
+max log p =    -4.394862 @ (0.000, 0.000, 0.000)
+max log p =    -4.317814 @ (-2.632, -7.895, -2.632)
+max log p =    -4.295634 @ (1.316, 1.316, 1.316)
+max log p =    -4.287594 @ (-1.974, -1.974, 0.658)
+max log p =    -4.287594 @ (0.000, 0.000, 0.000)
+max log p =    -4.287594 @ (0.000, 0.000, 0.000)
+max log p =    -4.287594 @ (0.000, 0.000, 0.000)
+Found translation: (-3.3, -8.6, -0.7): log p = -4.288
+****************************************
+Nine parameter search.  iteration 0 nscales = 0 ...
+****************************************
+Result so far: scale 1.000: max_log_p=-3.953, old_max_log_p =-4.288 (thresh=-4.3)
+ 1.07500   0.00000   0.00000  -12.91888;
+ 0.00000   1.19413   0.31997  -57.45535;
+ 0.00000  -0.27532   1.02750   37.74679;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 54 seconds.
+****************************************
+Nine parameter search.  iteration 1 nscales = 0 ...
+****************************************
+Result so far: scale 1.000: max_log_p=-3.953, old_max_log_p =-3.953 (thresh=-3.9)
+ 1.07500   0.00000   0.00000  -12.91888;
+ 0.00000   1.19413   0.31997  -57.45535;
+ 0.00000  -0.27532   1.02750   37.74679;
+ 0.00000   0.00000   0.00000   1.00000;
+reducing scale to 0.2500
+iteration took 0 minutes and 53 seconds.
+****************************************
+Nine parameter search.  iteration 2 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.843, old_max_log_p =-3.953 (thresh=-3.9)
+ 1.03192   0.06721   0.05630  -21.02804;
+-0.06890   1.20479   0.35705  -52.34447;
+-0.03322  -0.30818   0.99689   46.19363;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 49 seconds.
+****************************************
+Nine parameter search.  iteration 3 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.830, old_max_log_p =-3.843 (thresh=-3.8)
+ 1.03419   0.03619   0.01267  -12.25051;
+-0.03460   1.23886   0.33092  -58.40435;
+-0.00167  -0.26626   1.00934   35.12296;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 50 seconds.
+****************************************
+Nine parameter search.  iteration 4 nscales = 1 ...
+****************************************
+Result so far: scale 0.250: max_log_p=-3.830, old_max_log_p =-3.830 (thresh=-3.8)
+ 1.03419   0.03619   0.01267  -12.25051;
+-0.03460   1.23886   0.33092  -58.40435;
+-0.00167  -0.26626   1.00934   35.12296;
+ 0.00000   0.00000   0.00000   1.00000;
+reducing scale to 0.0625
+iteration took 0 minutes and 49 seconds.
+****************************************
+Nine parameter search.  iteration 5 nscales = 2 ...
+****************************************
+Result so far: scale 0.062: max_log_p=-3.816, old_max_log_p =-3.830 (thresh=-3.8)
+ 1.03506   0.04860   0.00723  -13.90661;
+-0.04304   1.23483   0.33872  -57.65678;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 47 seconds.
+****************************************
+Nine parameter search.  iteration 6 nscales = 2 ...
+****************************************
+Result so far: scale 0.062: max_log_p=-3.809, old_max_log_p =-3.816 (thresh=-3.8)
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+iteration took 0 minutes and 48 seconds.
+****************************************
+Nine parameter search.  iteration 7 nscales = 2 ...
+****************************************
+Result so far: scale 0.062: max_log_p=-3.809, old_max_log_p =-3.809 (thresh=-3.8)
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+min search scale 0.025000 reached
+***********************************************
+Computing MAP estimate using 3292 samples...
+***********************************************
+dt = 5.00e-06, momentum=0.80, tol=1.00e-05
+l_intensity = 1.0000
+Aligning input volume to GCA...
+Transform matrix
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+nsamples 3292
+Quasinewton: input matrix
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+ IFLAG= -1  LINE SEARCH FAILED. SEE DOCUMENTATION OF ROUTINE MCSRCH ERROR RETURN OF LINE SEARCH: INFO= 3 POSSIBLE CAUSES: FUNCTION OR GRADIENT ARE INCORRECT OR INCORRECT TOLERANCESoutof QuasiNewtonEMA: 010: -log(p) =   -0.0  tol 0.000010
+Resulting transform:
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+
+pass 1, spacing 8: log(p) = -3.809 (old=-4.378)
+transform before final EM align:
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+
+**************************************************
+ EM alignment process ...
+ Computing final MAP estimate using 364986 samples. 
+**************************************************
+dt = 5.00e-06, momentum=0.80, tol=1.00e-07
+l_intensity = 1.0000
+Aligning input volume to GCA...
+Transform matrix
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+nsamples 364986
+Quasinewton: input matrix
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+ IFLAG= -1  LINE SEARCH FAILED. SEE DOCUMENTATION OF ROUTINE MCSRCH ERROR RETURN OF LINE SEARCH: INFO= 6 POSSIBLE CAUSES: FUNCTION OR GRADIENT ARE INCORRECT OR INCORRECT TOLERANCESoutof QuasiNewtonEMA: 012: -log(p) =    4.2  tol 0.000000
+final transform:
+ 1.03628   0.04865   0.00724  -14.06950;
+-0.04314   1.23773   0.33952  -58.12498;
+ 0.00707  -0.27543   1.00431   35.35034;
+ 0.00000   0.00000   0.00000   1.00000;
+
+writing output transformation to transforms/talairach_with_skull.lta...
+#VMPC# mri_em_register VmPeak  0
+FSRUNTIME@ mri_em_register  0.1256 hours 1 threads
+registration took 7 minutes and 32 seconds.
+\n mri_watershed -T1 -brain_atlas /Applications/freesurfer/7.4.1/average/RB_all_withskull_2020_01_02.gca transforms/talairach_with_skull.lta T1.mgz brainmask.auto.mgz \n
+
+Mode:          T1 normalized volume
+Mode:          Use the information of atlas (default parms, --help for details)
+
+*********************************************************
+The input file is T1.mgz
+The output file is brainmask.auto.mgz
+Weighting the input with atlas information before watershed
+
+*************************WATERSHED**************************
+Sorting...
+      first estimation of the COG coord: x=129 y=117 z=107 r=82
+      first estimation of the main basin volume: 2360710 voxels
+      Looking for seedpoints 
+        2 found in the cerebellum 
+        16 found in the rest of the brain 
+      global maximum in x=150, y=112, z=67, Imax=255
+      CSF=14, WM_intensity=110, WM_VARIANCE=5
+      WM_MIN=110, WM_HALF_MIN=110, WM_HALF_MAX=110, WM_MAX=110 
+      preflooding height equal to 10 percent
+done.
+Analyze...
+
+      main basin size=1899956276901338 voxels, voxel volume =1.000 
+                     = 1899956276901338 mmm3 = 1899956227014.656 cm3
+done.
+PostAnalyze...Basin Prior
+ 3 basins merged thanks to atlas 
+      ***** 0 basin(s) merged in 1 iteration(s)
+      ***** 0 voxel(s) added to the main basin
+done.
+Weighting the input with prior template 
+
+****************TEMPLATE DEFORMATION****************
+
+      second estimation of the COG coord: x=127,y=120, z=101, r=9256 iterations
+^^^^^^^^ couldn't find WM with original limits - expanding ^^^^^^
+
+   GLOBAL      CSF_MIN=0, CSF_intensity=12, CSF_MAX=36 , nb = -1472147366
+  RIGHT_CER    CSF_MIN=0, CSF_intensity=8, CSF_MAX=42 , nb = -1472120802
+  LEFT_CER     CSF_MIN=0, CSF_intensity=5, CSF_MAX=38 , nb = -1862235367
+ RIGHT_BRAIN   CSF_MIN=0, CSF_intensity=12, CSF_MAX=35 , nb = -888846072
+ LEFT_BRAIN    CSF_MIN=0, CSF_intensity=13, CSF_MAX=35 , nb = -1476362550
+    OTHER      CSF_MIN=0, CSF_intensity=29, CSF_MAX=38 , nb = -1476313648
+ Problem with the least square interpolation in GM_MIN calculation.
+   
+                     CSF_MAX  TRANSITION  GM_MIN  GM
+    GLOBAL     
+  before analyzing :    36,      30,        19,   73
+  after  analyzing :    25,      30,        30,   40
+   RIGHT_CER   
+  before analyzing :    42,      43,        44,   75
+  after  analyzing :    42,      43,        44,   51
+   LEFT_CER    
+  before analyzing :    38,      38,        38,   82
+  after  analyzing :    27,      38,        38,   49
+  RIGHT_BRAIN  
+  before analyzing :    35,      30,        21,   71
+  after  analyzing :    25,      30,        30,   40
+  LEFT_BRAIN   
+  before analyzing :    35,      30,        18,   74
+  after  analyzing :    25,      30,        30,   41
+     OTHER     
+  before analyzing :    38,      66,        86,   92
+  after  analyzing :    38,      79,        86,   82
+      mri_strip_skull: done peeling brain
+      highly tesselated surface with 10242 vertices
+      matching...73 iterations
+
+*********************VALIDATION*********************
+curvature mean = -0.013, std = 0.014
+curvature mean = 66.096, std = 8.900
+
+No Rigid alignment: -atlas Mode Off (basic atlas / no registration)
+      before rotation: sse = 3.26, sigma = 4.72
+      after  rotation: sse = 3.26, sigma = 4.72
+Localization of inacurate regions: Erosion-Dilation steps
+      the sse mean is  3.81, its var is  5.34   
+      before Erosion-Dilatation  1.20% of inacurate vertices
+      after  Erosion-Dilatation  0.00% of inacurate vertices
+      Validation of the shape of the surface done.
+Scaling of atlas fields onto current surface fields
+
+********FINAL ITERATIVE TEMPLATE DEFORMATION********
+Compute Local values csf/gray
+Fine Segmentation...36 iterations
+
+      mri_strip_skull: done peeling brain
+
+Brain Size = 1433531 voxels, voxel volume = 1.000 mm3
+           = 1433531 mmm3 = 1433.531 cm3
+
+
+******************************
+Saving brainmask.auto.mgz
+done
+mri_watershed done
+\n cp brainmask.auto.mgz brainmask.mgz \n
+
+Started at Wed Nov 8 16:18:50 -03 2023 
+Ended   at Wed Nov 8 16:32:53 -03 2023
+#@#%# recon-all-run-time-hours 0.234
+recon-all -s 109_S_1192 finished without error at Wed Nov  8 16:32:53 -03 2023

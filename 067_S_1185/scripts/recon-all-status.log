@@ -1,0 +1,93 @@
+status file for recon-all
+Tue Oct 31 11:50:58 -03 2023
+#@# MotionCor Tue Oct 31 11:50:59 -03 2023
+#@# Talairach Tue Oct 31 11:51:03 -03 2023
+#@# Talairach Failure Detection Tue Oct 31 11:53:14 -03 2023
+#@# Nu Intensity Correction Tue Oct 31 11:53:14 -03 2023
+#@# Intensity Normalization Tue Oct 31 11:55:27 -03 2023
+#@# Skull Stripping Tue Oct 31 11:57:09 -03 2023
+recon-all -s Paciente_3 finished without error at Tue Oct 31 12:04:02 -03 2023
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Tue Oct 31 13:25:39 -03 2023
+#@# MotionCor Tue Oct 31 13:25:39 -03 2023
+#@# Talairach Tue Oct 31 13:25:39 -03 2023
+#@# Talairach Failure Detection Tue Oct 31 13:27:46 -03 2023
+#@# Nu Intensity Correction Tue Oct 31 13:27:46 -03 2023
+#@# Intensity Normalization Tue Oct 31 13:29:58 -03 2023
+#@# Skull Stripping Tue Oct 31 13:31:39 -03 2023
+#@# EM Registration Tue Oct 31 13:31:52 -03 2023
+#@# CA Normalize Tue Oct 31 13:40:00 -03 2023
+#@# CA Reg Tue Oct 31 13:40:50 -03 2023
+#@# SubCort Seg Tue Oct 31 14:51:32 -03 2023
+#@# CC Seg Tue Oct 31 15:24:08 -03 2023
+#@# Merge ASeg Tue Oct 31 15:24:36 -03 2023
+#@# Intensity Normalization2 Tue Oct 31 15:24:36 -03 2023
+#@# Mask BFS Tue Oct 31 15:26:47 -03 2023
+#@# WM Segmentation Tue Oct 31 15:26:48 -03 2023
+#@# Fill Tue Oct 31 15:28:49 -03 2023
+#@# Tessellate lh Tue Oct 31 15:29:38 -03 2023
+#@# Tessellate rh Tue Oct 31 15:29:42 -03 2023
+#@# Smooth1 lh Tue Oct 31 15:29:44 -03 2023
+#@# Smooth1 rh Tue Oct 31 15:29:46 -03 2023
+#@# Inflation1 lh Tue Oct 31 15:29:49 -03 2023
+#@# Inflation1 rh Tue Oct 31 15:30:01 -03 2023
+#@# QSphere lh Tue Oct 31 15:30:14 -03 2023
+#@# QSphere rh Tue Oct 31 15:46:42 -03 2023
+#@# Fix Topology lh Tue Oct 31 16:03:19 -03 2023
+#@# Fix Topology rh Tue Oct 31 16:04:47 -03 2023
+#@# Smooth2 lh Tue Oct 31 16:14:49 -03 2023
+#@# Smooth2 rh Tue Oct 31 16:14:51 -03 2023
+#@# Inflation2 lh Tue Oct 31 16:14:54 -03 2023
+#@# Inflation2 rh Tue Oct 31 16:15:08 -03 2023
+#@# Curv .H and .K lh Tue Oct 31 16:15:22 -03 2023
+#@# Curv .H and .K rh Tue Oct 31 16:15:58 -03 2023
+#@# Sphere lh Tue Oct 31 16:16:36 -03 2023
+#@# Sphere rh Tue Oct 31 16:44:55 -03 2023
+#@# Surf Reg lh Tue Oct 31 16:51:11 -03 2023
+#@# Surf Reg rh Tue Oct 31 17:00:34 -03 2023
+#@# Jacobian white lh Tue Oct 31 17:11:24 -03 2023
+#@# Jacobian white rh Tue Oct 31 17:11:25 -03 2023
+#@# AvgCurv lh Tue Oct 31 17:11:26 -03 2023
+#@# AvgCurv rh Tue Oct 31 17:11:26 -03 2023
+#@# Cortical Parc lh Tue Oct 31 17:11:27 -03 2023
+#@# Cortical Parc rh Tue Oct 31 17:11:34 -03 2023
+#@# white curv lh Tue Oct 31 17:33:59 -03 2023
+#@# white area lh Tue Oct 31 17:34:01 -03 2023
+#@# pial curv lh Tue Oct 31 17:34:01 -03 2023
+#@# pial area lh Tue Oct 31 17:34:03 -03 2023
+#@# thickness lh Tue Oct 31 17:34:03 -03 2023
+#@# area and vertex vol lh Tue Oct 31 17:34:22 -03 2023
+#@# white curv rh Tue Oct 31 17:34:24 -03 2023
+#@# white area rh Tue Oct 31 17:34:25 -03 2023
+#@# pial curv rh Tue Oct 31 17:34:26 -03 2023
+#@# pial area rh Tue Oct 31 17:34:27 -03 2023
+#@# thickness rh Tue Oct 31 17:34:28 -03 2023
+#@# area and vertex vol rh Tue Oct 31 17:34:48 -03 2023
+#@# Curvature Stats lh Tue Oct 31 17:34:49 -03 2023
+#@# Curvature Stats rh Tue Oct 31 17:34:51 -03 2023
+#@# Cortical ribbon mask Tue Oct 31 17:34:54 -03 2023
+#@# Cortical Parc 2 lh Tue Oct 31 17:38:11 -03 2023
+#@# Cortical Parc 2 rh Tue Oct 31 17:38:21 -03 2023
+#@# Cortical Parc 3 lh Tue Oct 31 17:38:31 -03 2023
+#@# Cortical Parc 3 rh Tue Oct 31 17:38:38 -03 2023
+#@# WM/GM Contrast lh Tue Oct 31 17:38:46 -03 2023
+#@# WM/GM Contrast rh Tue Oct 31 17:38:49 -03 2023
+#@# Relabel Hypointensities Tue Oct 31 17:38:51 -03 2023
+#@# APas-to-ASeg Tue Oct 31 17:39:03 -03 2023
+#@# AParc-to-ASeg aparc Tue Oct 31 17:39:18 -03 2023
+#@# AParc-to-ASeg aparc.a2009s Tue Oct 31 17:40:00 -03 2023
+#@# AParc-to-ASeg aparc.DKTatlas Tue Oct 31 17:40:42 -03 2023
+#@# WMParc Tue Oct 31 17:41:24 -03 2023
+#@# Parcellation Stats lh Tue Oct 31 17:45:58 -03 2023
+#@# Parcellation Stats rh Tue Oct 31 17:46:11 -03 2023
+#@# Parcellation Stats 2 lh Tue Oct 31 17:46:23 -03 2023
+#@# Parcellation Stats 2 rh Tue Oct 31 17:46:30 -03 2023
+#@# Parcellation Stats 3 lh Tue Oct 31 17:46:37 -03 2023
+#@# Parcellation Stats 3 rh Tue Oct 31 17:46:43 -03 2023
+#@# ASeg Stats Tue Oct 31 17:46:49 -03 2023
+#@# BA_exvivo Labels lh Tue Oct 31 17:49:02 -03 2023
+#@# BA_exvivo Labels rh Tue Oct 31 17:51:21 -03 2023
+recon-all -s Paciente_3 finished without error at Tue Oct 31 18:08:28 -03 2023

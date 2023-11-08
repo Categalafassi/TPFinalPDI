@@ -1,0 +1,3 @@
+-s
+Paciente_3
+-all

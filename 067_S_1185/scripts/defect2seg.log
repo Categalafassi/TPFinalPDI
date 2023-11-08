@@ -1,0 +1,106 @@
+Log file for defect2seg
+Tue Oct 31 16:05:55 -03 2023
+
+setenv SUBJECTS_DIR /Applications/freesurfer/7.4.1/subjects
+cd /Applications/freesurfer/7.4.1/subjects/Paciente_3/scripts
+/Applications/freesurfer/7.4.1/bin/defect2seg --s Paciente_3 --cortex
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+defect2seg 7.4.1
+Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+pid 38348
+mri_label2label --label-cortex /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.orig.nofix /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/aseg.presurf.mgz 0 /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/lh.nofix.cortex.label
+
+ Generating cortex label... RemoveHipAmgy=0
+ NucAccIsMedialWall=0
+ mris->useRealRAS=0
+25 non-cortical segments detected
+only using segment with 7614 vertices
+erasing segment 0 (vno[0] = 5849)
+erasing segment 1 (vno[0] = 6607)
+erasing segment 2 (vno[0] = 7366)
+erasing segment 3 (vno[0] = 10364)
+erasing segment 4 (vno[0] = 14535)
+erasing segment 5 (vno[0] = 14601)
+erasing segment 6 (vno[0] = 14712)
+erasing segment 7 (vno[0] = 18100)
+erasing segment 8 (vno[0] = 18189)
+erasing segment 9 (vno[0] = 18242)
+erasing segment 10 (vno[0] = 19055)
+erasing segment 11 (vno[0] = 19079)
+erasing segment 12 (vno[0] = 21915)
+erasing segment 13 (vno[0] = 21970)
+erasing segment 14 (vno[0] = 22765)
+erasing segment 15 (vno[0] = 23675)
+erasing segment 16 (vno[0] = 26596)
+erasing segment 18 (vno[0] = 74605)
+erasing segment 19 (vno[0] = 80685)
+erasing segment 20 (vno[0] = 85443)
+erasing segment 21 (vno[0] = 88657)
+erasing segment 22 (vno[0] = 89441)
+erasing segment 23 (vno[0] = 99133)
+erasing segment 24 (vno[0] = 101297)
+mri_label2vol --defects /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.orig.nofix /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.defect_labels /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/orig.mgz 1000 0 /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/surface.defects.mgz /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/lh.nofix.cortex.label
+ supposed to be reproducible but seed not set
+Contraining to label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/lh.nofix.cortex.label
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/surface.defects.mgz
+mris_defects_pointset -s /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.orig.nofix -d /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.defect_labels -o /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.defects.pointset --label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/lh.nofix.cortex.label
+Reading in surface /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.orig.nofix
+Reading in defect segmentation /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/lh.defect_labels
+Reading in label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/lh.nofix.cortex.label
+#VMPC# mris_defects_pointset 0
+mris_defects_pointset done
+mri_label2label --label-cortex /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.orig.nofix /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/aseg.presurf.mgz 0 /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/rh.nofix.cortex.label
+
+ Generating cortex label... RemoveHipAmgy=0
+ NucAccIsMedialWall=0
+ mris->useRealRAS=0
+27 non-cortical segments detected
+only using segment with 7281 vertices
+erasing segment 0 (vno[0] = 14932)
+erasing segment 1 (vno[0] = 17701)
+erasing segment 2 (vno[0] = 17726)
+erasing segment 3 (vno[0] = 19561)
+erasing segment 4 (vno[0] = 20591)
+erasing segment 5 (vno[0] = 21646)
+erasing segment 6 (vno[0] = 21719)
+erasing segment 7 (vno[0] = 24715)
+erasing segment 8 (vno[0] = 26639)
+erasing segment 9 (vno[0] = 27553)
+erasing segment 10 (vno[0] = 27634)
+erasing segment 12 (vno[0] = 60942)
+erasing segment 13 (vno[0] = 60975)
+erasing segment 14 (vno[0] = 68415)
+erasing segment 15 (vno[0] = 73842)
+erasing segment 16 (vno[0] = 85154)
+erasing segment 17 (vno[0] = 85180)
+erasing segment 18 (vno[0] = 86118)
+erasing segment 19 (vno[0] = 86140)
+erasing segment 20 (vno[0] = 88040)
+erasing segment 21 (vno[0] = 88134)
+erasing segment 22 (vno[0] = 88186)
+erasing segment 23 (vno[0] = 88196)
+erasing segment 24 (vno[0] = 92288)
+erasing segment 25 (vno[0] = 93155)
+erasing segment 26 (vno[0] = 104845)
+mri_label2vol --defects /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.orig.nofix /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.defect_labels /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/surface.defects.mgz 2000 1 /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/surface.defects.mgz /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/rh.nofix.cortex.label
+ supposed to be reproducible but seed not set
+Contraining to label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/rh.nofix.cortex.label
+Converting defects to volume: offset=2000, merge=1
+Writing to /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/surface.defects.mgz
+mris_defects_pointset -s /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.orig.nofix -d /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.defect_labels -o /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.defects.pointset --label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/rh.nofix.cortex.label
+Reading in surface /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.orig.nofix
+Reading in defect segmentation /Applications/freesurfer/7.4.1/subjects/Paciente_3/surf/rh.defect_labels
+Reading in label /Applications/freesurfer/7.4.1/subjects/Paciente_3/label/rh.nofix.cortex.label
+#VMPC# mris_defects_pointset 0
+mris_defects_pointset done
+ 
+Started at Tue Oct 31 16:05:55 -03 2023 
+Ended   at Tue Oct 31 16:06:29 -03 2023
+Defect2seg-Run-Time-Sec 34
+Defect2seg-Run-Time-Min 0.68
+Defect2seg-Run-Time-Hours 0.01
+ 
+defect2seg Done

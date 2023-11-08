@@ -1,0 +1,9 @@
+status file for recon-all
+Wed Nov  8 15:50:08 -03 2023
+#@# MotionCor Wed Nov  8 15:50:12 -03 2023
+#@# Talairach Wed Nov  8 15:50:18 -03 2023
+#@# Talairach Failure Detection Wed Nov  8 15:52:30 -03 2023
+#@# Nu Intensity Correction Wed Nov  8 15:52:30 -03 2023
+#@# Intensity Normalization Wed Nov  8 15:54:44 -03 2023
+#@# Skull Stripping Wed Nov  8 15:56:12 -03 2023
+recon-all -s 032_S_0147 finished without error at Wed Nov  8 16:03:09 -03 2023

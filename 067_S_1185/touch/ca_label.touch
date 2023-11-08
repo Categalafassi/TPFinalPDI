@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /Applications/freesurfer/7.4.1/subjects/Paciente_3/mri/transforms/cc_up.lta Paciente_3

@@ -1,0 +1,5 @@
+"Image Data ID","Subject","Group","Sex","Age","Visit","Modality","Description","Type","Acq Date","Format","Downloaded"
+"I25239","032_S_0147","AD","F","60","m06","MRI","MPRAGE","Original","9/19/2006","DCM","11/08/2023"
+"I62464","067_S_1185","AD","M","63","m06","MRI","MPRAGE","Original","7/24/2007","DCM","10/29/2023"
+"I36230","109_S_1192","AD","F","70","sc","MRI","MPRAGE","Original","1/11/2007","DCM","11/08/2023"
+"I261855","094_S_4282","AD","M","90","v02","MRI","Sag IR-SPGR","Original","10/20/2011","DCM","11/08/2023"

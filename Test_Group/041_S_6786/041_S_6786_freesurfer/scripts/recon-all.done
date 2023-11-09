@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT 041_S_6786
+START_TIME Thu Nov 9 12:51:14 -03 2023
+END_TIME Thu Nov 9 13:04:37 -03 2023
+RUNTIME_HOURS 0.223
+USER cundo
+HOST Facundos-MacBook-Air.local
+PROCESSOR arm64
+OS Darwin
+UNAME Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+VERSION 7.4.1 (freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460)
+CMDPATH /Applications/freesurfer/7.4.1/bin/recon-all
+CMDARGS -i ADNI_041_S_6786_MR_Accelerated_Sagittal_MPRAGE__br_raw_20220503101711791_122_S1129998_I1576363.dcm -autorecon1 -s 041_S_6786

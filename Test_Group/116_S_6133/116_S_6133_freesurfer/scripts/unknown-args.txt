@@ -1,0 +1,5 @@
+-i
+ADNI_116_S_6133_MR_Accelerated_Sagittal_MPRAGE__br_raw_20200129121630735_14_S916891_I1281566.dcm
+-autorecon1
+-s
+116_S_6133

@@ -1,0 +1,107 @@
+/Applications/freesurfer/7.4.1/subjects/002_S_0295/mri
+/Applications/freesurfer/7.4.1/bin/mri_nu_correct.mni
+--i orig.mgz --o nu.mgz --uchar transforms/talairach.xfm --n 2 --ants-n4
+nIters 2
+FreeSurferEnv.csh 7.4.1
+Darwin Facundos-MacBook-Air.local 23.0.0 Darwin Kernel Version 23.0.0: Fri Sep 15 14:41:34 PDT 2023; root:xnu-10002.1.13~1/RELEASE_ARM64_T8103 arm64
+Thu Nov  9 12:38:31 -03 2023
+tmpdir is ./tmp.mri_nu_correct.mni.90085
+cd /Applications/freesurfer/7.4.1/subjects/002_S_0295/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.90085/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_binarize --i ./tmp.mri_nu_correct.mni.90085/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.90085/ones.mgz
+
+7.4.1
+cwd /Applications/freesurfer/7.4.1/subjects/002_S_0295/mri
+cmdline mri_binarize --i ./tmp.mri_nu_correct.mni.90085/nu0.mgz --min -1 --o ./tmp.mri_nu_correct.mni.90085/ones.mgz 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+
+input      ./tmp.mri_nu_correct.mni.90085/nu0.mgz
+frame      0
+nErode3d   0
+nErode2d   0
+output     ./tmp.mri_nu_correct.mni.90085/ones.mgz
+Binarizing based on threshold
+min        -1
+max        +infinity
+binval        1
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Found 16777216 values in range
+Counting number of voxels in first frame
+Found 16777215 voxels in final mask
+Writing output to ./tmp.mri_nu_correct.mni.90085/ones.mgz
+Count: 16777215 16777215.000000 16777216 99.999994
+mri_binarize done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.90085/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.90085/sum.junk --avgwf ./tmp.mri_nu_correct.mni.90085/input.mean.dat
+
+7.4.1
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.90085/ones.mgz --i orig.mgz --sum ./tmp.mri_nu_correct.mni.90085/sum.junk --avgwf ./tmp.mri_nu_correct.mni.90085/input.mean.dat 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.90085/ones.mgz
+Loading orig.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.90085/input.mean.dat
+mri_segstats done
+mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.90085/ones.mgz --i ./tmp.mri_nu_correct.mni.90085/nu0.mgz --sum ./tmp.mri_nu_correct.mni.90085/sum.junk --avgwf ./tmp.mri_nu_correct.mni.90085/output.mean.dat
+
+7.4.1
+cwd 
+cmdline mri_segstats --id 1 --seg ./tmp.mri_nu_correct.mni.90085/ones.mgz --i ./tmp.mri_nu_correct.mni.90085/nu0.mgz --sum ./tmp.mri_nu_correct.mni.90085/sum.junk --avgwf ./tmp.mri_nu_correct.mni.90085/output.mean.dat 
+sysname  Darwin
+hostname Facundos-MacBook-Air.local
+machine  x86_64
+user     cundo
+whitesurfname  white
+UseRobust  0
+Loading ./tmp.mri_nu_correct.mni.90085/ones.mgz
+Loading ./tmp.mri_nu_correct.mni.90085/nu0.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found   1 segmentations
+Computing statistics for each segmentation
+
+Reporting on   1 segmentations
+Using PrintSegStat
+Computing spatial average of each frame
+
+Writing to ./tmp.mri_nu_correct.mni.90085/output.mean.dat
+mri_segstats done
+mris_calc -o ./tmp.mri_nu_correct.mni.90085/nu0.mgz ./tmp.mri_nu_correct.mni.90085/nu0.mgz mul 1.66398418851413091169
+mri_convert ./tmp.mri_nu_correct.mni.90085/nu0.mgz nu.mgz --like orig.mgz
+mri_convert ./tmp.mri_nu_correct.mni.90085/nu0.mgz nu.mgz --like orig.mgz 
+reading from ./tmp.mri_nu_correct.mni.90085/nu0.mgz...
+TR=8.92, TE=3.92, TI=1000.00, flip angle=8.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to nu.mgz...
+mri_make_uchar nu.mgz transforms/talairach.xfm nu.mgz
+type change took 0 minutes and 6 seconds.
+FIRST_PERCENTILE 0.010000
+WM_PERCENTILE    0.900000
+MAX_R 50.000000
+i1 = 3, i2 = 57
+#mri_make_uchar# mapping  6 114 to  3 110  :  b -3.41944 m 0.994907 : thresh 3.43695 maxsat 259.742 : nzero 6029656 nsat 0
+ 
+ 
+Thu Nov  9 12:40:36 -03 2023
+mri_nu_correct.mni done

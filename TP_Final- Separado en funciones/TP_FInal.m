@@ -16,8 +16,8 @@ clc
 niifo=niftiinfo('067_S_1185_brainmask.nii');
 V = niftiread('067_S_1185_brainmask.nii');
 k=4;
-img_spacing=1.2;
-mm_px=1.3;
+img_spacing=niifo.PixelDimensions(3);
+mm_px=niifo.PixelDimensions(1);
 
 [Vol_Liq, Vol_GrayM, Vol_WhiteM] = Calculate_volumes(V, k, img_spacing,mm_px);
 
